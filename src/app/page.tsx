@@ -87,7 +87,7 @@ export default function Home() {
           image="/images/logo.svg"
           imageAlt="FAQ Visual"
           items={[
-            { title: 'What is BrainRot MemeCoin?', content: 'It's a community-driven coin focused on fun and transparency.' },
+            { title: 'What is BrainRot MemeCoin?', content: 'It is a community-driven coin focused on fun and transparency.' },
             { title: 'How can I buy it?', content: 'You can buy it on decentralized exchanges using Ethereum.' }
           ]}
         />
