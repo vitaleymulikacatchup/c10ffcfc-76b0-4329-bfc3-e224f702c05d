@@ -15,7 +15,6 @@ export default function Home() {
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingOverlay
           logoSrc="/images/logo.svg"
-          logoAlt="BrainRot MemeCoin Logo"
           buttonText="Buy BrainRot" 
           navItems={[
             { name: 'Hero', id: 'hero' },
