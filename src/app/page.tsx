@@ -1,4 +1,4 @@
-use client
+"use client";
 import { SiteThemeProvider } from '@/components/sections/ThemeProvider';
 import NavbarLayoutFloatingOverlay from '@/components/navigation/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import SimpleHero from '@/components/sections/layouts/hero/FrameHero';
@@ -16,7 +16,7 @@ export default function Home() {
         <NavbarLayoutFloatingOverlay
           logoSrc="/images/logo.svg"
           logoAlt="BrainRot MemeCoin Logo"
-          buttonText="Buy BrainRot"
+          buttonText="Buy BrainRot" 
           navItems={[
             { name: 'Hero', id: 'hero' },
             { name: 'About', id: 'about' },
@@ -25,7 +25,7 @@ export default function Home() {
             { name: 'Roadmap', id: 'roadmap' },
             { name: 'FAQ', id: 'faq' },
             { name: 'Footer', id: 'footer' }
-          ]}
+          ]} 
         />
       </div>
 
